@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesiDiva</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="top-header">
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-user"></i></button>
+                <div class="dropdown-content">
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Sign Up</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-money-bill-wave"></i></button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="selectCurrency('USD')">USD</a>
+                    <a href="#" onclick="selectCurrency('EUR')">EUR</a>
+                    <a href="#" onclick="selectCurrency('GBP')">GBP</a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="wishlist.html" class="icon"><i class="fas fa-heart"></i></a>
+                <a href="cart.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="header">
+        <img src="images/desidiva.png" class="logo" alt="DesiDiva Logo">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Shop</a>
+                    <div class="dropdown-content">
+                        <a href="new-arrivals.html">New Arrivals</a>
+                        <a href="glasses.html">Glasses</a>
+                        <a href="perfumes.html">Perfumes</a>
+                        <a href="footwear.html">Footwear</a>
+                        <a href="womenswear.html">Women's Wear</a>
+                        <a href="accessories.html">Accessories</a>
+                        <a href="sale.html">Sale</a>
+                    </div>
+                </li>
+                <li><a href="blog.html" class="blog">Blog</a></li>
+                <li><a href="about.html" class="about">About</a></li>
+                <li><a href="contact.html" class="contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="hero">
+        <a href="womenswear.html"><button>Shop Now</button></a>
+    </section>
+    
+    <div class="image-row">
+        <img src="images/left.jpg" alt="Left Image">
+        <img src="images/Teal.jpg" alt="Center Image">
+        <a href="sale.html" class="overlay-link">
+            <div class="overlay-text">
+                Sale Up to
+                <br>50% Off
+            </div>
+        </a>
+        <img src="images/right.jpg" alt="Right Image">
+    </div>
+    
+    <section id="shopping">
+        <div class="shop-row">
+            <div class="image-container">
+                <a href="footwear.html">
+                    <img src="images/footwear.jpg" alt="Footwear">
+                    <div class="overlay-text bottom-left">Footwear</div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="accessories.html">
+                    <img src="images/accessories.jpg" alt="Accessories">
+                    <div class="overlay-text top-center">Accessories</div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="womenswear.html">
+                    <img src="images/clothes.jpg" alt="Clothes">
+                    <div class="overlay-text bottom-right">Clothes</div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="products-section">
+        <section id="products-section">
+            <div class="header-container">
+                <div class="header-left">
+                    <h2>Fashion New</h2>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li class="product-category" data-category="featured">Featured</li>
+                        <li class="product-category" data-category="new-arrivals">New Arrivals</li>
+                        <li class="product-category" data-category="sale">Sale</li>
+                        <li class="product-category" data-category="best-selling">Best Selling</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-list">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </section>
+        <section id="products-section">
+            <!-- Existing product section content -->
+        </section>
+        
+        <section id="promo-section">
+            <div class="promo-container">
+                <div class="promo-item" id="new-arrivals">
+                    <img src="images/new-arr2.png" alt="New Arrivals">
+                    <div class="promo-overlay">
+                      
+                        <a href="new-arrivals.html" class="shop-now">Shop Now</a>
+                    </div>
+                </div>
+                <div class="promo-item" id="sale">
+                    <img src="images/Salebanner.png" alt="Sale">
+                    <div class="promo-overlay">
+                       
+                        <a href="sale.html" class="shop-now">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="down-section">
+            <div class="newsletter-container">
+                <img src="images/desidiva.png" alt="Your Logo" class="footer-logo">
+                <p>Enjoy our newsletter to stay updated with the latest news and special sales. Drop your email below!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email here" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="info-boxes">
+                <div class="info-box free-delivery">
+                    <h3>Free Delivery</h3>
+                    <p>Totally free for orders above $250</p>
+                </div>
+                <div class="info-box gift-vouchers">
+                    <h3>Gift Vouchers</h3>
+                    <p>Send voucher for personalized gifts</p>
+                </div>
+                <div class="info-box coupon-code">
+                    <h3>Coupon Code</h3>
+                    <p>Use DesiDesiMini on checkout</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer id="footer-section">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li>Accessories</li>
+                        <li>Women's Wear</li>
+                        <li>Sunglasses</li>
+                        <li>Perfumes</li>
+                        <li>Foot Wear</li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li>Our Story</li>
+                        <li>Careers</li>
+                        <li>Press</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                        <li>Shipping & Returns</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>Size Guide</li>
+                        <li>Store Locator</li>
+                        <li>Gift Cards</li>
+                        <li>Affiliate Program</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Find Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Pinterest</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>DesiDiva &copy; All rights reserved</p>
+            </div>
+        </footer>
+        
+        
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

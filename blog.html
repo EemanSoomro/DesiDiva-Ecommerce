@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesiDiva</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="top-header">
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-user"></i></button>
+                <div class="dropdown-content">
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Sign Up</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-money-bill-wave"></i></button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="selectCurrency('USD')">USD</a>
+                    <a href="#" onclick="selectCurrency('EUR')">EUR</a>
+                    <a href="#" onclick="selectCurrency('GBP')">GBP</a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="wishlist.html" class="icon"><i class="fas fa-heart"></i> </a>
+                <a href="cart.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="header">
+        <img src="images/desidiva.png" class="logo" alt="">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Shop</a>
+                    <div class="dropdown-content">
+                        <a href="new-arrivals.html">New Arrivals</a>
+                        <a href="glasses.html">Glasses</a>
+                        <a href="perfumes.html">Perfumes</a>
+                        <a href="footwear.html">Footwear</a>
+                        <a href="womenswear.html">Women's Wear</a>
+                        <a href="accessories.html">Accessories</a>
+                        <a href="sale.html">Sale</a>
+                    </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+    </section>
+
+    <div class="blog-container">
+        <div class="coming-soon-container">
+        <div class="coming-soon-header-div">
+            <h1>Stylish Bags Launching Soon!</h1>
+        </div>
+            <div class="coming-soon-content">
+                <img src="images/comingsoonblog.png" alt="Bag Image" class="coming-soon-image">
+                <p class="coming-soon-text">
+                    Stay tuned for our exclusive range of women's bags that combine style, elegance, and functionality. Each piece is meticulously crafted to cater to your fashion needs. Whether you're looking for a chic everyday bag or a stunning statement piece, we've got you covered. Don't miss out on our upcoming collection that promises to redefine your accessory game. Keep an eye out for more updates and get ready to elevate your style! Our bags are designed with the modern woman in mind, ensuring both practicality and fashion-forward appeal. From luxurious leather totes to trendy crossbody bags, our collection offers something for every occasion. Stay fashionable, stay fabulous!                </p>
+            </div>
+        </div>
+        <header class="blog-header">
+            <h2>Glamour Meets Insight: Client Stories</h2> <!-- Add a heading if needed -->
+        </header>
+
+        <div class="main-content">
+            <section class="blog-background">
+                <a href="index.html" class="view-more-button">View More</a>
+            </section>
+            <div class="slideshow-container">
+                <div class="slides">
+                    <div class="slide"><img src="images/slideshow2.jpg" alt="Slide 1"></div>
+                    <div class="slide"><img src="images/slideshow3.jpg" alt="Slide 2"></div>
+                    <div class="slide"><img src="images/slideshow4.jpg" alt="Slide 3"></div>
+                    <div class="slide"><img src="images/slideshow5.jpg" alt="Slide 4"></div>
+                    <div class="slide"><img src="images/slideshow6.jpg" alt="Slide 5"></div>
+                    <div class="slide"><img src="images/slideshow7.jpg" alt="Slide 6"></div>
+                    <div class="slide"><img src="images/slideshow8.jpg" alt="Slide 7"></div>
+                    <div class="slide"><img src="images/slideshow10.jpg" alt="Slide 8"></div>
+                    <div class="slide"><img src="images/slideshow11.webp" alt="Slide 9"></div>
+                   
+                    <!-- Add more slides as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="customer-reviews">
+        <div class="customer-review-header">
+        <h2>What Our Customers Say</h2>
+        </div>
+        
+        <div class="review">
+            <div class="review-content">
+                <p>"I absolutely love the quality of the products! The women's wear collection is my favorite. I always get compliments when I wear DesiDiva!"</p>
+            </div>
+            <div class="reviewer-info">
+                <img src="images/customer-review1.jpg" alt="Customer 1">
+                <h4>Maria A.</h4>
+                <p>Fashion Enthusiast</p>
+            </div>
+        </div>
+        
+        <div class="review">
+            <div class="review-content">
+                <p>"DesiDiva's footwear collection is top-notch! Stylish, comfortable, and perfect for any occasion. Highly recommend to everyone!"</p>
+            </div>
+            <div class="reviewer-info">
+                <img src="images/customer-review2.webp" alt="Customer 2">
+                <h4>Ayesha K.</h4>
+                <p>Happy Customer</p>
+            </div>
+        </div>
+    </section>
+
+            
+    <section id="down-section">
+        <div class="newsletter-container">
+            <img src="images/desidiva.png" alt="Your Logo" class="footer-logo">
+            <p>Enjoy our newsletter to stay updated with the latest news and special sales. Drop your email below!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email here" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="info-boxes">
+            <div class="info-box free-delivery">
+                <h3>Free Delivery</h3>
+                <p>Totally free for orders above $450</p>
+            </div>
+            <div class="info-box gift-vouchers">
+                <h3>Gift Vouchers</h3>
+                <p>Send voucher for personalized gifts</p>
+            </div>
+            <div class="info-box coupon-code">
+                <h3>Coupon Code</h3>
+                <p>Use DesiDesiMini on checkout</p>
+            </div>
+        </div>
+    </section>
+        
+    <footer id="footer-section">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Women's Wear</li>
+                    <li>Sunglasses</li>
+                    <li>Perfumes</li>
+                    <li>Foot Wear</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    <li>Sustainability</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>FAQs</li>
+                    <li>Shipping & Returns</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Information</h3>
+                <ul>
+                    <li>Size Guide</li>
+                    <li>Store Locator</li>
+                    <li>Gift Cards</li>
+                    <li>Affiliate Program</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Find Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Pinterest</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>DesiDiva &copy; All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
